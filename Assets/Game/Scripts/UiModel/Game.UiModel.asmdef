@@ -1,0 +1,6 @@
+{
+  "name": "Game.UiModel",
+  "rootNamespace": "Game.UiModel",
+  "references": ["Game.Domain", "Game.Application"],
+  "noEngineReferences": true
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Game.Tests.PlayMode",
+  "references": [
+    "Game.Domain",
+    "Game.ECS",
+    "Game.Presentation",
+    "UnityEngine.UI",
+    "Unity.InputSystem",
+    "Game.Authoring",
+    "Game.Application",
+    "Game.UiModel"
+  ],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ]
+}

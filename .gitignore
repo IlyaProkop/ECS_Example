@@ -1,0 +1,63 @@
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+MemoryCaptures/
+
+# Addressables and asset pipeline caches
+Assets/AddressableAssetsData/*/*.bin*
+Assets/AddressableAssetsData/AssetGroupsSchemas/*.asset
+
+# Auto-generated IDE files
+.vs/
+.idea/
+.vscode/
+*.sln
+*.slnx
+*.csproj
+*.unityproj
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# Unity / Mono / IL2CPP artifacts
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+*.apk
+*.aab
+*.unitypackage
+
+# Crash reports
+sysinfo.txt
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Verification tooling
+__pycache__/
+*.pyc
+
+
+# Local development material (kept on disk, omitted from the submission)
+/stats/
+/tools/*
+!/tools/verify.py
+!/tools/tests/
+/tools/tests/*
+!/tools/tests/test_verify.py
+/docs/*
+!/docs/overview.md
+/Assets/Game/Editor/ProfilerCaptureExporter.cs*

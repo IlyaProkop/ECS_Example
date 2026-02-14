@@ -1,0 +1,7 @@
+{
+  "name": "Game.Application",
+  "rootNamespace": "Game",
+  "references": ["Game.Domain"],
+  "autoReferenced": true,
+  "noEngineReferences": true
+}

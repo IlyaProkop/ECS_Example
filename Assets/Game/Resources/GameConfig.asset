@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab184f66bd27a6343a0644ea8d302cbc, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: Game.Domain::Game.Config.GameConfig
+  playerMaxHealth: 100
+  playerMoveSpeed: 6
+  playerRadius: 0.5
+  actorVisuals:
+  - id: 1
+    primitive: 1
+    mesh: {fileID: 0}
+    materialTemplate: {fileID: 0}
+    color: {r: 0.25, g: 0.85, b: 0.45, a: 1}
+    height: 2
+    meshScale: {x: 1, y: 0.5, z: 1}
+    elevation: -1
+    castShadows: 1
+    receiveShadows: 1
+  - id: 2
+    primitive: 1
+    mesh: {fileID: 0}
+    materialTemplate: {fileID: 0}
+    color: {r: 0.9, g: 0.25, b: 0.25, a: 1}
+    height: 2
+    meshScale: {x: 1, y: 0.5, z: 1}
+    elevation: -1
+    castShadows: 1
+    receiveShadows: 1
+  - id: 3
+    primitive: 0
+    mesh: {fileID: 0}
+    materialTemplate: {fileID: 0}
+    color: {r: 1, g: 0.9, b: 0.25, a: 1}
+    height: 0
+    meshScale: {x: 1, y: 1, z: 1}
+    elevation: 1
+    castShadows: 1
+    receiveShadows: 1
+  - id: 4
+    primitive: 0
+    mesh: {fileID: 0}
+    materialTemplate: {fileID: 0}
+    color: {r: 1, g: 0.75, b: 0.1, a: 1}
+    height: 0
+    meshScale: {x: 1, y: 1, z: 1}
+    elevation: -1
+    castShadows: 1
+    receiveShadows: 1
+  projectileInterval: 0.3
+  projectileSpeed: 16
+  projectileRadius: 0.2
+  projectileDamage: 25
+  projectileLifetime: 4
+  enemyTypes:
+  - id: 1
+    visualId: 2
+    maxHealth: 60
+    moveSpeed: 2.8
+    radius: 0.5
+    stopDistance: 1.5
+    attackRange: 1.55
+    damagePerSecond: 5
+    armor: 0
+  - id: 2
+    visualId: 2
+    maxHealth: 120
+    moveSpeed: 1.8
+    radius: 1
+    stopDistance: 2.4
+    attackRange: 2.6
+    damagePerSecond: 8
+    armor: 20
+  enemyPathMaxWaypoints: 128
+  enemyPathCellSize: 0.6
+  enemyPathRepathInterval: 0.6
+  enemyPathRepathJitter: 0.2
+  enemyPathMaxRepathsPerFrame: 8
+  enemyPathWaypointReachDistance: 0.25
+  enemyPathTargetMoveThreshold: 1
+  enemyPathSearchPadding: 8
+  enemyPathMaxSearchSize: 80
+  enemyPathMaxNodes: 8192
+  enemySpawnInterval: 0.8
+  coinDropChance: 0.5
+  coinPickupRadius: 1
+  coinRadius: 0.25
+  arenaHalfSize: {x: 14, y: 10}
+  enemyCount: 12
+  victoryReward: 100
+  resultsDelay: 0.6
+  randomSeed: 12345
+  playerArmor: 10
+  criticalChance: 0.15
+  criticalMultiplier: 2
+  playerAbility: {fileID: 11400000, guid: 2549be1fdb03bd4408bc965285cbeb48, type: 2}
+  cameraHeight: 20
+  cameraOrthographicSize: 12
+  cameraFollowLerp: 10
+  enemyWorldHpMaxLabels: 120
+  enemyWorldHpCullDistance: 45
+  groundSize: 80
+  obstacleLookupCellSize: 3
+  obstaclePositions:
+  - {x: 6, y: 0, z: 6}
+  - {x: -8, y: 0, z: 4}
+  - {x: 4, y: 0, z: -7}
+  - {x: -6, y: 0, z: -6}
+  obstacleScale: {x: 3, y: 2, z: 3}

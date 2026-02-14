@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bcec73f2d074e14a3acb9e44cc2391e, type: 3}
+  m_Name: StraightWeapon
+  m_EditorClassIdentifier: Game.Authoring::Game.Config.WeaponAsset
+  interval: 0.3
+  projectile: {fileID: 11400000, guid: e943dafdcdb0b8c4b8868ede92ae1f4e, type: 2}
+  id: 1
+  range: 1000

@@ -1,0 +1,12 @@
+{
+  "name": "Game.Editor",
+  "references": [
+    "Game.Domain",
+    "Game.ECS",
+    "Game.Presentation",
+    "Game.Authoring"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ]
+}

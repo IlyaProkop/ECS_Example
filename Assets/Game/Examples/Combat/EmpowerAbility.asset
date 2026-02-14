@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c107563ab5b5486da2a3ae83c0a88708, type: 3}
+  m_Name: EmpowerAbility
+  m_EditorClassIdentifier: Game.Authoring::Game.Config.AbilityAsset
+  id: 20
+  cooldown: 5
+  effects:
+  - rid: 8115981558157934592
+  displayName: "\u0423\u0441\u0438\u043B\u0435\u043D\u0438\u0435"
+  ringRadius: 4.5
+  references:
+    version: 2
+    RefIds:
+    - rid: 8115981558157934592
+      type: {class: SelfStatusAuthoring, ns: Game.Config, asm: Game.Authoring}
+      data:
+        status: {fileID: 11400000, guid: fe7a11fbbe0eb9b43b434b6ca01aa0c9, type: 2}
+        id: 1
+        duration: 3
+        stacking: 0
+        maxStacks: 1
+        modifiers:
+        - statId: 1
+          operation: 1
+          value: 1.35
+          priority: 0
+        - statId: 2
+          operation: 0
+          value: 30
+          priority: 0

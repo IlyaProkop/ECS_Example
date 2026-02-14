@@ -1,0 +1,22 @@
+{
+  "name": "Game.Tests.EditMode",
+  "references": [
+    "Game.Domain",
+    "Game.ECS",
+    "Game.Presentation",
+    "Scellecs.Morpeh",
+    "Unity.Collections",
+    "Game.Authoring",
+    "Game.Application",
+    "Game.UiModel",
+    "Game.Diagnostics",
+    "UnityEngine.UI",
+    "Unity.Mathematics"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ]
+}

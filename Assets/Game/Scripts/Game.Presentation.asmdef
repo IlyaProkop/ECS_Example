@@ -1,0 +1,22 @@
+{
+  "name": "Game.Presentation",
+  "rootNamespace": "Game",
+  "references": [
+    "Game.Domain",
+    "Game.ECS",
+    "UnityEngine.UI",
+    "Unity.InputSystem",
+    "Game.Authoring",
+    "Game.Application",
+    "Game.UiModel"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

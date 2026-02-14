@@ -1,0 +1,16 @@
+{
+  "name": "Game.Authoring",
+  "rootNamespace": "Game",
+  "references": [
+    "Game.Domain"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

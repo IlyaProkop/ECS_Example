@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a81b9fede73434db465471b230523e3, type: 3}
+  m_Name: HomingIncendiary
+  m_EditorClassIdentifier: Game.Authoring::Game.Config.ProjectileAsset
+  speed: 16
+  damage: 25
+  radius: 0.2
+  lifetime: 4
+  visualId: 3
+  motion: 1
+  hitEffects:
+  - {fileID: 11400000, guid: 5ce68da8eb16005458d273bc0ce30ffd, type: 2}
+  - {fileID: 11400000, guid: 2702eeb65e315ee4f9f36dd0bf0ba852, type: 2}
+  spawnStatuses: []

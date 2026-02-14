@@ -1,0 +1,20 @@
+{
+  "name": "Game.ECS",
+  "rootNamespace": "Game",
+  "references": [
+    "Game.Domain",
+    "Scellecs.Morpeh",
+    "Unity.Collections",
+    "Unity.Mathematics",
+    "Unity.Burst"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

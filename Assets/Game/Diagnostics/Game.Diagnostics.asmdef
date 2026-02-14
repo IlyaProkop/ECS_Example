@@ -1,0 +1,14 @@
+{
+  "name": "Game.Diagnostics",
+  "references": [
+    "Game.Domain",
+    "Game.ECS",
+    "Game.Authoring",
+    "Game.Presentation",
+    "Game.Application",
+    "UnityEngine.UI",
+    "Unity.InputSystem",
+    "Scellecs.Morpeh"
+  ],
+  "autoReferenced": true
+}
